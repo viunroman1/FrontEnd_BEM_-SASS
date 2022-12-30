@@ -57,28 +57,28 @@
         <h2 class="visually__hidden">Переваги</h2>
     <ul class="benefits list">
         <li> 
-            <svg class="icon__benefits" width="70px" height="70px">
+            <svg class="benefits__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#antenna"></use>
             </svg>
             <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
         </li>
         <li>
-            <svg class="icon__benefits" width="70px" height="70px">
+            <svg class="benefits__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#clock"></use>
             </svg>
             <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
         </li>
         <li>
-            <svg class="icon__benefits" width="70px" height="70px">
+            <svg class="benefits__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#diagram"></use>
             </svg>
             <h3 class="title">ПЛАНУВАННЯ</h3>
             <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
         </li>
         <li>
-            <svg class="icon__benefits" width="70px" height="70px">
+            <svg class="benefits__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#astronaut"></use>
             </svg>
             <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
@@ -87,7 +87,7 @@
     </ul>
     </section>
 
-    <section class="home__container" >
+    <section class="home" >
         <h2 class="home__title">Чим ми займаємося</h2>
         <ul class="home__working list">
             <li class="item"> 
@@ -103,7 +103,7 @@
         </ul>    
     </section>
                     <!-- Команда сети -->
-    <section class="team__containe" >
+    <section class="team-containe" >
         <h2 class="home__title">Наша команда</h2>       
             <ul class="team list">
             <li>
@@ -354,11 +354,11 @@
                 <use href="./images/icons.svg#close-modsal"></use>
             </svg>
         </button>
-<form class="form__modal">
+<form class="form">
     <h2 class="form__title">Залиште свої дані, ми вам передзвонимо</h2>
 
     <div class="form__position">
-        <label for="name">Ім'я</label>
+        <label class="form__name" for="name">Ім'я</label>
         <div class="icon__position">
             <input  type="text"   name="name" id="name" autofocus>
             <svg class="icon__person" width="18" height="18">
@@ -368,7 +368,7 @@
     </div>
 
     <div class="form__position">
-        <label class="" for="tel">Телефон</label>
+        <label class="form__name" for="tel">Телефон</label>
         <div class="icon__position">
             <input type="tel" name="tel" id="tel" minlength="2" maxlength="20" pattern="1-0">
             <svg class="icon__person" width="18" height="18">
@@ -379,7 +379,7 @@
 
 
     <div class="form__position">
-        <label for="mail">Пошта</label>
+        <label class="form__name" for="mail">Пошта</label>
         <div class="icon__position">
             <input  type="email" name="mail" id="email">
             <svg class="icon__person" width="18" height="18">
@@ -389,7 +389,7 @@
     </div>
 
     <div class="form__fieled textarea">
-        <label for="textarea">Коментар</label>
+        <label class="form__name" for="textarea">Коментар</label>
         <!-- <p class="name-textarea">Коментар</p> -->
         <textarea name="textarea" class="textarea" id="textarea" cols="30" rows="10" placeholder="Введіть текст"></textarea>
     </div>
