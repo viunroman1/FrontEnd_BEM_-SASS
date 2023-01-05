@@ -1,0 +1,40 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    box-sizing: border-box;
+    /* pading+border+content Точні розміри */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+.list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  text-decoration: none; */
+.logo,
+.link,
+.works,
+.logo__foot,
+.contact {
+    text-decoration: none;
+}
