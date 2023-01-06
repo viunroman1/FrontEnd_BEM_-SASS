@@ -12,78 +12,79 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
             integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />  
-            <link rel="stylesheet" href="./css/main.min.css">               
-            <!-- <link rel="stylesheet" href="./css/style.css">     -->
+            <!-- <link rel="stylesheet" href="./css/main.min.css">                -->
+            <link rel="stylesheet" href="./css/style.css">    
 </head>
 <body>
     <header class="header">
-        <div class="header__list  container">
-            <nav class="header__nav">
-                <a class="logo" href="./index.html"><span class="logo__span">Web</span>Studio</a>
-                <ul class="header__nav list">
-                    <li class="item">
-                        <a href="./index.html" class="link current">Студіо</a>
+        <div class="header__flex  container">
+            <nav class="header__navs">
+                <a class="logo" href="./index.html"><span class="logo--blue">Web</span>Studio</a>
+                <ul class="header__menu   list">
+                    <li class="item     header__item">
+                        <a href="./index.html" class="link current  header__link header__link--current">Студіо</a>
                     </li>
-                    <li class="item">
-                        <a href="./portfolio.html" class="link">Портфоліо</a></li>
-                    <li class="item">
-                        <a href="./test.html" class="link">Контакти</a></li>
+                    <li class="item      header__item">
+                        <a href="./portfolio.html" class="link  header__link">Портфоліо</a></li>
+                    <li class="item      header__item">
+                        <a href="./test.html" class="link  header__link">Контакти</a></li>
                 </ul>
             </nav>        
-                <ul class="cont__nav list">
-                    <li class="item">
-                        <svg class="icon__header" width="16px" height="12px">
+                <ul class="contact  list">
+                    <li class="item   contact__item">
+                        <a href="mailto:info@devstudio.com" class="link contact__link">
+                        <svg class="contact__icon" width="16px" height="12px">
                             <use href="./images/icons.svg#envelope-hover"></use></svg>
-                        <a href="mailto:info@devstudio.com"  class="link">info@devstudio.com</a>
+                        info@devstudio.com</a>
                     <!-- <div class="registr"></div> -->
                     </li>
 
-                <li class="item">
-                    <svg class="icon__header" width="10px" height="16px">
+                <li class="item   contact__item">
+                    <a href="tel:+380961111111" class="link  contact__link">
+                    <svg class="contact__icon" width="10px" height="16px">
                         <use href="./images/icons.svg#smartphone"></use>
                     </svg>
-                    <a href="tel:+380961111111" class="link" data-mo>+38 096 111 11 11</a></li>
+                    +38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
 <main>   
     <!-- Hero -->    
-    <section class="hero">
-       <h1 class="visually__hidden">Проекти</h1>
+    <section class="hero">       
        <h1 class="hero__title"> Ефективні рішення для вашого бізнесу</h1>
-       <button class="hero-button" type="button" data-modal-open> Замовити послугу </button> 
+       <button class="hero-button     button hero__button" type="button" data-modal-open> Замовити послугу </button> 
     </section>    
 
-    <section class="container perevagu">
+    <section class="container benefits">
         <h2 class="visually__hidden">Переваги</h2>
-    <ul class="benefits list">
+    <ul class="benefits list    benefits__list list">
         <li> 
             <svg class="benefits__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#antenna"></use>
             </svg>
-            <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            <h3 class="title      benefits__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="text      benefits__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
         </li>
         <li>
             <svg class="benefits__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#clock"></use>
             </svg>
-            <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            <h3 class="title   benefits__title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="text     benefits__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
         </li>
         <li>
             <svg class="benefits__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#diagram"></use>
             </svg>
-            <h3 class="title">ПЛАНУВАННЯ</h3>
-            <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+            <h3 class="title     benefits__title">ПЛАНУВАННЯ</h3>
+            <p class="text     benefits__text">Так само консультація з широким активом значною мірою зумовлює.</p>
         </li>
         <li>
             <svg class="benefits__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#astronaut"></use>
             </svg>
-            <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            <h3 class="title     benefits__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="text     benefits__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
     </ul>
     </section>
@@ -404,6 +405,8 @@
 </form>
     </div>
 </div>
+
+
 <script src="./js/modal.js"></script>
 </body>
 </html>
