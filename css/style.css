@@ -629,19 +629,11 @@ p {
     color: var(--background);
     margin-top: 20px;
 }
-.main__address{  
-    display: flex; 
-    flex-wrap: nowrap;
-    flex-direction: column-reverse;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin: 0px;
-    padding: 0;  
-}
+
 
 
 .contact{
-    color: var(--color-address);       
+    color: var(--color-address);          
 }
 
 address{
@@ -650,6 +642,7 @@ address{
 
 .mail{
     padding-top: 9px;
+    
 }
 p{
     margin-top: 0px;
@@ -661,7 +654,7 @@ p{
     margin-left: 70px;
     
 }
-.link__footer p {
+.join__text {
     text-transform: uppercase;
     text-align: center;
     color: var(--background);
