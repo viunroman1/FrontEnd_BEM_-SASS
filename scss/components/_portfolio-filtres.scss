@@ -1,0 +1,21 @@
+/* < !-- Навігація по сайту --> */
+.filtres {
+    padding-top: 94px;
+    padding-bottom: 34px;
+
+   
+    &__project {
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        justify-content: center;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 8px;
+    }
+
+    &__button {
+        text-align: center;
+    } 
+}

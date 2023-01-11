@@ -1,10 +1,26 @@
     // UTILS
-@import './utils/variables';
-@import './utils/fonts';
+@import "./utils/variables";
+@import "./utils/fonts";
 
-    // layaout
-@import './layout/header';
-
+   
     // base
-@import './base/base';
-@import './base/reset';
+@import "./base/base";
+@import "./base/reset";
+
+
+ // Components
+ @import "./components/benefits";
+ @import "./components/button";
+ @import "./components/client";
+ @import "./components/container";
+ @import "./components/footer";
+ @import "./components/header";
+ @import "./components/hero";
+ @import "./components/home";
+ @import "./components/join";
+ @import "./components/logo";
+ @import "./components/modal";
+ @import "./components/portfolio-filtres";
+ @import "./components/portfolio-project";
+ @import "./components/subscription";
+ @import "./components/team";

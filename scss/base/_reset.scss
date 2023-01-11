@@ -7,4 +7,33 @@ h5,
 h6,
 p {
     margin-top: 0;
+    margin-bottom: 0px;
 } 
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+.list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  text-decoration: none; */
+.logo,
+.link,
+.works,
+.logo__foot,
+.contact {
+    text-decoration: none;
+}
+.visually__hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}

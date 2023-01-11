@@ -1,0 +1,46 @@
+/* FOOTER */
+.footer {
+
+    
+    background-color: $footer-color;
+
+}
+
+.foot {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.logo--white {
+    color: $background;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2px;
+}
+
+
+.address {
+    font-style: normal;
+
+    &__sity {
+        color: $background;
+        margin-top: 20px;
+
+    }
+
+    &__item {
+        margin-top: 9px;
+    }
+
+    &__contact {
+        color: $color-address;
+        text-decoration: none;
+
+    }
+
+
+}
+
+
+

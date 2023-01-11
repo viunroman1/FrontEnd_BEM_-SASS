@@ -1,0 +1,67 @@
+/* Button */
+.button {
+    background-color: $background-color;
+    color: $title-text-color;
+    font-family: inherit;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    &:hover,
+    &:focus {
+    background-color: $accent-color;
+    color: $background;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    }    
+}
+
+
+.hero__button {
+    background-color: $accent-color;
+    color: $background;
+    font-family: inherit;
+    margin-top: 40px;
+
+    min-width: 216px;
+    height: 50px;
+    padding: 10px 32px;
+    text-align: center;
+    border: 1px solid transparent;
+
+   &:focus,
+   &:hover {
+    background-color: $button-active;
+    color: $background;
+    font-family: inherit;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    } 
+}
+
+.subscription__button {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background: $accent-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+    color: $background;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    background-color: $accent-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
